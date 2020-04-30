@@ -13,7 +13,7 @@ import lombok.Data;
 @Data
 public class User {
    private Integer id;
-   private String nameName;
-   private  Integer age;
-   private  String authToken;
+   private String roleName;
+   private  String account;
+   private  String password;
 }

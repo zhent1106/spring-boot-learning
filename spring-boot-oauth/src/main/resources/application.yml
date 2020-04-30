@@ -1,0 +1,19 @@
+
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          github:
+            clientId: d56019edd905437299fa
+            clientSecret: a14873cc8d1ddf9189a7e36762ed7db64ca5673a
+#  thymeleaf:
+#    cache: false
+#    check-template-location: true
+#    encoding: utf-8
+#    mode: HTML5
+#    prefix: .html
+#    servlet:
+#      content-type: application/json
+server:
+  port: 8080
